@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Style/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Style/css/custom.css">
+    <script type="module" src="values.js"> </script>
+    <script type="text/javascript" src="script.js"> </script>
+
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body onload="whenLoaded()" src="script.js">
+
+    <header class="mainHeader" role="banner">
+        <img src="Resources/banner.png" alt="Banner Image" width="100%" , height="200px" />
+    </header>
+
+    <h1 id="title_text"> Unit Converter </h1>
+
+    <div class="row" >
+
+        <div class="btn-group-vertical col-sm-3" id="leftSideButtons">
+                <button type="button" class="btn btn-primary " id="area_button"><span
+                        class="glyphicon glyphicon-tree-conifer"></span> Area</button><br>
+                <button type="button" class="btn btn-primary" id="bits_bytes_button"><span
+                        class="glyphicon glyphicon-floppy-disk"></span> Bits/Bytes</button>
+        </div>
+
+        <div class="btn-group-vertical col-sm-3" id="rightSideButtons">
+            <button type="button" class="btn btn-primary" id="length_button"><span
+                    class="glyphicon glyphicon-road"></span> Length</button><br>
+            <button type="button" class="btn btn-primary" id="weight_button"><span
+                    class="glyphicon glyphicon-scale"></span> Weight</button>
+        </div>
+
+        <div id="innerDiv" class="col-sm-6" style="display:table-cell; vertical-align:middle; text-align:center">
+            <input type="number" id="first_input_field">
+            <select id="first_select_element">
+            </select>
+            <br>
+            <input type="number" id="second_input_field">
+            <select id="second_select_element">
+            </select> <br><br>
+            <button id="clear_button" type="button" class="btn btn-success"><span
+                    class="glyphicon glyphicon-erase"></span> Clear</button>
+            <button id="replace_button" type="button" class="btn btn-success"><span
+                    class="glyphicon glyphicon-resize-vertical"></span> Replace</button>
+
+        </div>
+
+    </div>
+
+     <div style="color: rgb(234, 43, 10);">
+    <footer>  
+        <p> Contact information: <a href="mailto:akashverma38654@gmail.com">akashverma38654@gmail.com</a></p>
+        <h4 style="height: auto;">Follow us:  &#160;  <a href="#" class="fa fa-facebook"></a>  &#160; &#160;
+                         <a href="https://twitter.com/AkashVerma491" class="fa fa-twitter"></a>         &#160; &#160;
+                         <a href="www.linkedin.com/in/akash-verma-30407b1bb" class="fa fa-linkedin"></a>        &#160; &#160;
+                         <a href="https://www.instagram.com/akashverma49/" class="fa fa-instagram"></a> </h4>
+       
+    </footer>
+     </div>
+
+</body>
+
+<script type="text/javascript" src="script.js"> </script>
+
+</html>
+
+
+
+
+
+
+
